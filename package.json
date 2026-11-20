@@ -1,0 +1,25 @@
+{
+  "name": "aisearch_nodejs",
+  "version": "1.0.0",
+  "description": "Public AI-content verification client and protected admin API",
+  "main": "server/src/server.js",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace client\" \"npm run dev --workspace server\"",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "dev:image-api": "cd image_api && .venv\\Scripts\\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+    "test:image-api": "cd image_api && .venv\\Scripts\\python.exe -m pytest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

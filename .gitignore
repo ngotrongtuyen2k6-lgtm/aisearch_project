@@ -1,0 +1,11 @@
+node_modules/
+client/dist/
+server/data/
+image_api/.venv/
+image_api/.pytest_cache/
+image_api/**/__pycache__/
+image_api/runtime/
+.env
+.env.*
+!.env.example
+npm-debug.log*

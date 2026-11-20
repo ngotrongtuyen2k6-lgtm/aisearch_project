@@ -1,0 +1,5 @@
+{
+  "image": "Đánh giá khả năng hình ảnh được tạo hoặc chỉnh sửa bằng AI. Phân tích chi tiết dấu hiệu vật lý và thị giác: ánh sáng, bóng đổ, kết cấu bề mặt, bàn tay/ngón tay, chữ viết, chi tiết nền và độ đồng nhất. Bắt buộc tách bằng chứng trực quan quan sát được khỏi suy đoán. Không kết luận chắc chắn chỉ từ cảm nhận thị giác; nêu giới hạn khi thiếu metadata/chữ ký nguồn gốc.",
+  "audio": "Phân tích dấu hiệu tổng hợp bằng AI (voice cloning/TTS), tập trung vào nhịp điệu, ngữ điệu, ngắt nghỉ, hơi thở, độ mượt bất thường của âm sắc và tạp âm nền. Bắt buộc tách điều quan sát/nghe thấy khỏi giả thuyết. Giải thích vì sao cảm nhận thính giác không thể khẳng định tuyệt đối.",
+  "document": "Đánh giá mức độ văn bản/tài liệu mang đặc trưng do AI viết. Xem cấu trúc câu, nhịp điệu lặp, sự đều đặn bất thường trong chuyển ý, từ ngữ chung chung hoặc thiếu trải nghiệm thực tế; nêu đoạn cụ thể làm ví dụ khi có văn bản. Không kết luận tuyệt đối chỉ dựa vào văn phong; phân biệt dấu hiệu tham khảo với bằng chứng xác thực."
+}
